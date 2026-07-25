@@ -77,7 +77,7 @@ test('Click menu items', async({page}) => {
 
 })
 
-//Reto tarea 4: dar click a todos los items del panel de menu izquierdo incliyendo Maintenance y regresar a la pagina principal y continuar con los clicks
+//Reto tarea 4: dar click a todos los items del panel de menu izquierdo incluyendo Maintenance y regresar a la pagina principal y continuar con los clicks
 test('Click menu items-workhome', async({page}) => {
 
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
